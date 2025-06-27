@@ -15,17 +15,26 @@
 
 body {
   font-family: "Poppins";
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  align-items: center;
+  height: 100vh;
 }
 
-.container {
+.main {
 }
 
 .heading {
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .card {
+  border-radius: 2px;
+  border-top: 2px;
 }
 
 h1 {
